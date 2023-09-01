@@ -1,8 +1,6 @@
 ---
 title: "Hello World"
 date: "2020-11-10"
-categories: 
-  - "posts"
 ---
 
 ![](https://programmerbyday.files.wordpress.com/2020/11/pexels-photo-169573.jpeg?w=1024)
