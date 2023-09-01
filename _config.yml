@@ -24,7 +24,7 @@ author: Arman
 description: >- # this means to ignore newlines until "baseurl:"
   My Experiences & Notes on Coding, Software Engineering, AI and Technology
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://armannotes.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: programmerByDay
 github_username: armannaj
 
@@ -42,7 +42,7 @@ plugins:
   - jekyll-seo-tag
 
 # Add your google-analytics ID here to activate google analytics
-google_analytics: G-0PL90HHJ88
+google_analytics: "G-0PL90HHJ88"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
