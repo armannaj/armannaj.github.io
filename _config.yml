@@ -30,7 +30,7 @@ github_username: armannaj
 
 # Build settings
 remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
-markdown: kramdown
+#markdown: kramdown
 paginate: 5
 paginate_path: "/posts/page:num/"
 plugins:
