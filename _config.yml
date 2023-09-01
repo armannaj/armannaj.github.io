@@ -28,7 +28,7 @@ twitter_username: programmerByDay
 github_username: armannaj
 
 # Build settings
-remote_theme: daviddarnes/alembic@main
+remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
 plugins:
   - jekyll-feed
   - jekyll-include-cache
