@@ -40,6 +40,9 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
+
+# Add your google-analytics ID here to activate google analytics
+google_analytics: G-0PL90HHJ88
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
