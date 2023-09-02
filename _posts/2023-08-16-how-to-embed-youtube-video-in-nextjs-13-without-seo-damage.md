@@ -13,7 +13,7 @@ background: "/img/posts/pexels-photo-315934.jpeg"
 
 Youtube allows you to embed videos in your website. It is said that having a rich content (like a video) in your website can have a positive impact on your SEO score in the eyes of search engines like Google or Bing.
 
-So I created a video for my experimental [Vibe Playlist AI](https://taranify.app), and tried to embed it in my website. I used the code I got from youtube. It gave me this code:
+So I created a video for my experimental [Mood Playlist AI](https://taranify.app), and tried to embed it in my website. I used the code I got from youtube. It gave me this code:
 
 ```
  <iframe
