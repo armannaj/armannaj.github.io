@@ -29,7 +29,8 @@ twitter_username: programmerByDay
 github_username: armannaj
 
 # Build settings
-remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
+#remote_theme: StartBootstrap/startbootstrap-clean-blog-jekyll
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 #markdown: kramdown
 paginate: 10
 paginate_path: "/posts/page:num/"
