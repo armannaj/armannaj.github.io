@@ -1,6 +1,6 @@
 ---
 title: "How I Do dotnet core App Setup Elegantly"
-date: "2020-11-10"
+date: "2020-11-11"
 tags: 
   - "net-core"
   - "c"

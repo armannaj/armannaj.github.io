@@ -1,6 +1,6 @@
 ---
 title: "How to Embed Youtube Video in NextJs 13 Without SEO damage"
-date: "2023-08-16"
+date: "2023-08-17"
 tags: 
   - "javascript"
   - "javascript-framework"

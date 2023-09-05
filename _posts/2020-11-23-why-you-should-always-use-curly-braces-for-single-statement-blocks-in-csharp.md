@@ -1,6 +1,6 @@
 ---
 title: "Why You Should Always Use Curly Braces For Single Statement Blocks In C#"
-date: "2020-11-22"
+date: "2020-11-23"
 tags: 
   - "c"
   - "codequality"

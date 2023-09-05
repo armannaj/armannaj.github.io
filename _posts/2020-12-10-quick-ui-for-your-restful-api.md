@@ -1,6 +1,6 @@
 ---
 title: "How to Build a Quick UI for Your Restful API + Howto Cheatsheet"
-date: "2020-12-09"
+date: "2020-12-10"
 tags: 
   - "net-core"
   - "api"

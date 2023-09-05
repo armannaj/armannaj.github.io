@@ -1,6 +1,6 @@
 ---
 title: "How a Newly Joined Developer Affects How You Write Code"
-date: "2020-11-12"
+date: "2020-11-13"
 tags: 
   - "clean-code"
   - "code-format"

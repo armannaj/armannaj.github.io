@@ -1,6 +1,6 @@
 ---
 title: "How to Secure Your ASP.NET Core WebApi with Azure AD and OAuth 2.0"
-date: "2021-04-19"
+date: "2021-04-20"
 tags: 
   - "net-core"
   - "api"

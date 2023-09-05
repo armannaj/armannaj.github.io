@@ -1,6 +1,6 @@
 ---
 title: "What is GraphQL? How to Use it in ASP.NET Core WebApi? Let Me Explain Simply..."
-date: "2021-05-03"
+date: "2021-05-04"
 tags: 
   - "net-core"
   - "api"

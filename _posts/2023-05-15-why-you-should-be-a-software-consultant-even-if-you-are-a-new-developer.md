@@ -1,6 +1,6 @@
 ---
 title: "Why you should be a software consultant even if you are a new developer"
-date: "2023-05-14"
+date: "2023-05-15"
 tags: 
   - "codenewbie"
   - "software-consultant"
