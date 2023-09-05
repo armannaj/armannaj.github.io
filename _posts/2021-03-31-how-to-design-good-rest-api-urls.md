@@ -1,8 +1,6 @@
 ---
 title: "How to Design Good REST API URLs?"
 date: "2021-03-31"
-categories: 
-  - "posts"
 tags: 
   - "api"
   - "rest-api"
