@@ -65,17 +65,17 @@ In _project .csproj_ file add these two lines:
 
 In _ConfigureServices_ method in _Startup.cs_ file add:
 
-services.AddSwaggerGen(options =>
-{
-   // Use these lines to describe the authorize mechanism of the api
-    options.AddSecurityDefinition(...);
-    options.AddSecurityRequirement(...);
+    services.AddSwaggerGen(options =>
+    {
+       // Use these lines to describe the authorize mechanism of the api
+        options.AddSecurityDefinition(...);
+        options.AddSecurityRequirement(...);
 
-    // Set the comments path for the Swagger JSON and UI.
-    var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-    options.IncludeXmlComments(xmlPath);
-});
+        // Set the comments path for the Swagger JSON and UI.
+        var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+        var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+        options.IncludeXmlComments(xmlPath);
+    });
 
 Note: Swagger needs http verbs to be explicitly defined on controller actions.
 
@@ -85,13 +85,14 @@ This will generate the OpenApi swagger file.
 
 Add these in _Configure_ method
 
-app.UseSwagger();
-app.UseSwaggerUI(options =>
-                 options.SwaggerEndpoint("/swagger/v1/swagger.json", Assembly.GetExecutingAssembly().GetName().Name));
+    app.UseSwagger();
+    app.UseSwaggerUI(options =>
+                     options.SwaggerEndpoint("/swagger/v1/swagger.json", Assembly.GetExecutingAssembly().GetName().Name));
 
 That's it!
 
-Run your api project and go to _/swagger_ path (like _https://localhost:5001/swagger_). Voilà !
+Run your api project and go to `/swagger` path (like _https://localhost:5001/swagger_). 
+Voilà !
 
 ## Check these for more:
 

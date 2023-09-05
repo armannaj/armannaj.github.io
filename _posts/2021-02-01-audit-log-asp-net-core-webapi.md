@@ -35,6 +35,7 @@ Next, I started looking into different available options. I came across various 
 
 An output sample would be like this:
 
+```json
 {
     "EventType": "POST User.GetUser",
     "Environment": {
@@ -80,6 +81,7 @@ An output sample would be like this:
         "ResponseHeaders": {}
     }
 }
+```
 
 ## How to use Audit.Net
 
@@ -89,8 +91,9 @@ An output sample would be like this:
 dotnet add package Audit.WebApi.Core
 ```
 
-To have a better single responsibility, I created a static class ( _AuditConfiguration.cs_ ) to contain the logic required for enabling and configuring auditing. I also decided to enable it for all controllers in the project, therefore I went for the global action filter option.
+To have a better single responsibility, I created a static class `AuditConfiguration.cs` to contain the logic required for enabling and configuring auditing. I also decided to enable it for all controllers in the project, therefore I went for the global action filter option.
 
+```csharp
 public static class AuditConfiguration
 {
         // Enables audit log with a global Action Filter
@@ -111,6 +114,7 @@ public static class AuditConfiguration
             // This is explained below
         }
 }
+```
 
 ### Configuring log output
 
@@ -118,16 +122,18 @@ There is a global static _Audit.Core.Configuration_ object which helps you to de
 
 There are [many storage providers](https://github.com/thepirat000/Audit.NET#storage-providers), from FileLog to cloud blob storage, cloud databases, and even Apache Kafka. I wanted to have logs simply written out in the console. So I decided to use its _DynamicAsyncDataProvider_ which allows you to define with lambda expressions what needs to be done when a log is outputted.
 
+```csharp
   // Configure audit output
             Audit.Core.Configuration.Setup()
                 .UseDynamicAsyncProvider(config => config
                     .OnInsert(async ev => Console.WriteLine(ev.ToJson())));
-       
+```
 
 ### Add/Remove audit properties
 
-Every log is captured in an AuditScope. AuditScope contains some general info about the event as well as the action object. In order to get the action object, you need to use _GetWebApiAuditAction_ extension method.
+Every log is captured in an AuditScope. AuditScope contains some general info about the event as well as the action object. In order to get the action object, you need to use `GetWebApiAuditAction` extension method.
 
+```csharp
 Audit.Core.Configuration.AddCustomAction(ActionType.OnEventSaving, scope =>
 {
    var auditAction = scope.Event.GetWebApiAuditAction();
@@ -148,6 +154,7 @@ Audit.Core.Configuration.AddCustomAction(ActionType.OnEventSaving, scope =>
       auditAction.RequestBody = null;
    }
 });
+```
 
 The Scope.Event object gets serialised as JSON with help of Newtonsoft.Json library internally.
 
@@ -155,11 +162,13 @@ The Scope.Event object gets serialised as JSON with help of Newtonsoft.Json libr
 
 Now that you have defined everything, you can simply use these two methods in _Startup.cs_ class. In _ConfigureServices_ method, use it like this:
 
+```csharp
 services.AddControllers(configure =>
                 {
                     AuditConfiguration.ConfigureAudit(services);
                     AuditConfiguration.AddAudit(configure);
                 }
+```
 
 That’s it!
 

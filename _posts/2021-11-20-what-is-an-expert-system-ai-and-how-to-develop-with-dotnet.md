@@ -42,7 +42,7 @@ Throughout the years, there has been quite some famous projects as well. Some of
 - [**MYCIN**](https://en.wikipedia.org/wiki/Mycin): another project in Stanford University in early 1970s, to identify bacteria causing infections and recommend antibiotics.
 - **[ROSS](https://rossintelligence.com/)**: is a new project by IBM. It's an artificially-intelligent attorney based on IBM's Watson cognitive computing system. It can answer your legal questions.
 
-https://www.youtube.com/watch?v=ZF0J\_Q0AK0E
+{% include video id="ZF0J_Q0AK0E" provider="youtube" %}
 
 - **PXDES**: An Example of Expert System used to predict the degree and type of lung cancer
 - **CaDet**: One of the best Expert System Example that can identify cancer at early stages
@@ -65,10 +65,11 @@ All in all, each approach has its own merits and some applications these days, e
 
 I found _[cs-expert-system-shell](https://github.com/chen0040/cs-expert-system-shell)_ github project quite easy to use. Add it to your project:
 
-Install-Package cs-expert-system-shell
+    Install-Package cs-expert-system-shell
 
 The first step is to define the knowledge base. It is done within a _RuleInferenceEngine_ object.
 
+```csharp
 static RuleInferenceEngine getInferenceEngine()
         {
             var inferenceEngine = new RuleInferenceEngine();
@@ -91,10 +92,12 @@ static RuleInferenceEngine getInferenceEngine()
 
             return inferenceEngine;
         }
+```
 
 In order to use forward chaining to diagnose a patient:
 
-static void Main(string\[\] args)
+```csharp
+static void Main(string[] args)
         {
             var inferenceEngine = getInferenceEngine();
             inferenceEngine.AddFact(new IsClause("temperature", "38"));
@@ -111,6 +114,7 @@ static void Main(string\[\] args)
                 ? "You might have Covid-19. Please contact your doctor ASAP"
                 : "No diagnosis could be inferred.");
         }
+```
 
 ... and the output will be:
 
