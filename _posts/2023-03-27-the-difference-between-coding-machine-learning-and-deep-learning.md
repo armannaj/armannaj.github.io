@@ -7,7 +7,8 @@ tags:
   - "deep-learning"
   - "machine-learning"
   - "neural-network"
-background: "/img/posts/pexels-pavel-danilyuk-8438918.jpg"
+header:
+    overlay_image: "/img/posts/pexels-pavel-danilyuk-8438918.jpg"
 ---
 
 I have been a software engineer and developer for more than a decade now. Writing code has always been a fun part of my day, generally it's a way to solve a problem and telling a computer machine what the solution is and how to execute it. However, in recent years (during university and work) I was introduced to different ways of solving problems. and, that is using Artificial Intelligence or AI to solve problems.

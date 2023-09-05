@@ -9,7 +9,8 @@ tags:
   - "graphql"
   - "rest-api"
   - "web-api"
-background: "/img/posts/pexels-pixabay-373543.jpg"
+header:
+    overlay_image: "/img/posts/pexels-pixabay-373543.jpg"
 ---
 
 From ASP.NET Web Forms to ASP.NET AJAX, then ASP.NET MVC and ASP.NET Web API, building an API has evolved massively. An API started from being a function you can run on another computer, evolved massively to accommodate what today's applications need.

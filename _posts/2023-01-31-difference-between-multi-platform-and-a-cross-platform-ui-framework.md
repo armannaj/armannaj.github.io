@@ -4,7 +4,8 @@ date: "2023-01-31"
 tags: 
   - "clean-code"
   - "javascript-framework"
-background: "/img/posts/pexels-picjumbocom-196644.jpg"
+header:
+    overlay_image: "/img/posts/pexels-picjumbocom-196644.jpg"
 ---
 
 > We want to give our users a native experience on their platform of choice. A native experience is when an app looks the same and has the same features as other native apps. A common way to achieve this is by using frameworks. However, each framework takes a slightly different approach.

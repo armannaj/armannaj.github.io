@@ -7,7 +7,8 @@ tags:
   - "csharp"
   - "dotnet-core"
   - "team-management"
-background: "/img/posts/pexels-fox-1595385.jpg"
+header:
+    overlay_image: "/img/posts/pexels-fox-1595385.jpg"
 ---
 
 > When writing a piece of code, There is parliament session going on in my mind. One party wants to maximise the code efficiency, performance and resource consumption while the other party thinks about the maintenance of the code in long term. It's like a hot debate with a lot of Objections! from either party. Over my years of experience, I learnt that I should listen more to the party who cares about maintenance, and here is why:

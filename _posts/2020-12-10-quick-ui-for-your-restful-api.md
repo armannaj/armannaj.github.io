@@ -6,7 +6,8 @@ tags:
   - "api"
   - "csharp"
   - "dotnet-core"
-background: "/img/posts/pexels-thisisengineering-3861943.jpg"
+header:
+    overlay_image: "/img/posts/pexels-thisisengineering-3861943.jpg"
 ---
 
 > Apis are technically built for other softwares to interact with. But in reality, humans (developers) interact with it a lot too. It's quite important for an Api to ease the interaction for both softwares and humans. But how?

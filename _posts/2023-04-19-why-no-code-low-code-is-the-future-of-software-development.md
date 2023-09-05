@@ -8,7 +8,8 @@ tags:
   - "no-code"
   - "software-architecture"
   - "software-engineering"
-background: "/img/posts/pexels-vlada-karpovich-4050294.jpg"
+header:
+    overlay_image: "/img/posts/pexels-vlada-karpovich-4050294.jpg"
 ---
 
 ![](https://programmerbyday.files.wordpress.com/2023/04/image.jpg?w=390)

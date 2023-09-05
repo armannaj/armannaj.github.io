@@ -7,7 +7,8 @@ tags:
   - "citsci"
   - "gaming"
   - "ios"
-background: "/img/posts/pexels-photo-3992943.jpeg"
+header:
+    overlay_image: "/img/posts/pexels-photo-3992943.jpeg"
 ---
 
 It all started in December 2019 .. When WHO was informed of unknown cases in Wuhan City, China. Since then, the world has experienced one of the biggest and longest pandemics. However, the big difference is that this time, science had advanced a lot in the recent decades, and that gave us the biggest tool to fight back with this tiny COVID-19 virus.

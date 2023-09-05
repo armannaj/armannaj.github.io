@@ -1,7 +1,8 @@
 ---
 title: "Unsubscribe and Save The Planet Earth"
 date: "2020-11-30"
-background: "/img/posts/pexels-brent-olson-5219233.jpg"
+header:
+    overlay_image: "/img/posts/pexels-brent-olson-5219233.jpg"
 excerpt: "How many newsletter emails are received everyday and don't get opened at all? Would it help the Earth If I unsubscribe from those I don't need anymore?"
 ---
 

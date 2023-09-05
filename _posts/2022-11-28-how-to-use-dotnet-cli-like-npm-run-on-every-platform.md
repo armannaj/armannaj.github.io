@@ -7,7 +7,8 @@ tags:
   - "net-core"
   - "dotnet-core"
   - "npm"
-background: "/img/posts/pexels-realtoughcandycom-11035380.jpg"
+header:
+    overlay_image: "/img/posts/pexels-realtoughcandycom-11035380.jpg"
 ---
 
 > Instead of publishing your dotnet application for each platform separately, there is a way to publish your app once as platform agnostic and run it on every platform easily.

@@ -9,7 +9,8 @@ tags:
   - "dotnet-core"
   - "rest-api"
   - "web-api"
-background: "/img/posts/pexels-pixabay-270557.jpg"
+header:
+    overlay_image: "/img/posts/pexels-pixabay-270557.jpg"
 ---
 
 > Azure AD is a common way of access control these days. OAuth is a well-known protocol that is used and expected from APIs. I found it tricky to integrate my APIs with Azure AD. So I decided to explain it all in very simple terms in this post.

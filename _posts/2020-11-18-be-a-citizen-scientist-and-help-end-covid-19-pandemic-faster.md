@@ -6,7 +6,8 @@ tags:
   - "covid-19"
   - "distributed-computing"
   - "ios"
-background: "/img/posts/pexels-photo-3861958.jpeg"
+header:
+    overlay_image: "/img/posts/pexels-photo-3861958.jpeg"
 ---
 
 With everything going on because of Covid-19 pandemic, there has been damages to various aspects of the world. From recession in countries' economies to people struggling with jobs and even worse people losing their loved ones. On the other hand, there has been a tremendous amount of great work from health-workers and doctors which we all appreciate every day.

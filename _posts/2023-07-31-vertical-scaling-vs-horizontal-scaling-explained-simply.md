@@ -7,7 +7,8 @@ tags:
   - "devops"
   - "scalability"
   - "web-development"
-background: "/img/posts/pexels-photo-1181354.jpeg"
+header:
+    overlay_image: "/img/posts/pexels-photo-1181354.jpeg"
 ---
 
 Scalability is one of the aspects to make any system future-proof. In this blog post, I will share my learnings about what the scaling is in software deployment, the difference between vertical scaling and horizontal scaling, and when to use each one.

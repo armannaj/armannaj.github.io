@@ -8,7 +8,8 @@ tags:
   - "dotnet-core"
   - "expert-systems"
   - "machine-learning"
-background: "/img/posts/pexels-tara-winstead-8386434.jpg"
+header:
+    overlay_image: "/img/posts/pexels-tara-winstead-8386434.jpg"
 ---
 
 The idea of artificial intelligence has wondered us since the early days of the computer era. A computer software that assists us with our tasks, helps us to make better decisions and answers all our questions. Throughout recent decades, there have been various approaches to this idea. From a search engine backed by a super-giant database, to expert systems and more recently machine learning AI.

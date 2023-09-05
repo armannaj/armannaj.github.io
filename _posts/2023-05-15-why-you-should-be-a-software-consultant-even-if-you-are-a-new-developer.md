@@ -4,7 +4,8 @@ date: "2023-05-15"
 tags: 
   - "codenewbie"
   - "software-consultant"
-background: "/img/posts/pexels-photo-3769021.jpeg"
+header:
+    overlay_image: "/img/posts/pexels-photo-3769021.jpeg"
 ---
 
 I've been a software consultant for almost a decade now and I wanna share with you what it means to be a software consultant and why I think everyone should consider trying it. So let's get right into it.

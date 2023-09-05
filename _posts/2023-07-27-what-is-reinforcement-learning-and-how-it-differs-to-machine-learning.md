@@ -5,7 +5,8 @@ tags:
   - "ai"
   - "machine-learning"
   - "reinforcement-learning"
-background: "/img/posts/pexels-photo-220051.jpeg"
+header:
+    overlay_image: "/img/posts/pexels-photo-220051.jpeg"
 ---
 
 In a previous blog post, I discussed the [differences between Coding, Machine Learning, and Deep Learning](https://armannotes.com/2023/03/27/the-difference-between-coding-machine-learning-and-deep-learning/). Now, I will share my recent learnings about Reinforcement Learning (RL) and explore its distinct nature from the other AI branches.

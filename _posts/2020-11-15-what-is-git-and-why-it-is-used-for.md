@@ -5,7 +5,8 @@ tags:
   - "git"
   - "source-code"
   - "team-management"
-background: "/img/posts/pexels-olia-danilevich-4974915.jpg"
+header:
+    overlay_image: "/img/posts/pexels-olia-danilevich-4974915.jpg"
 ---
 
 When software is being worked on by a team of engineers, to increase productivity and decrease dependency, they usually work on different features. That means each developer work on a feature/story and will add/change various files. This can sometimes cause conflicts since multiple developers may need to change the same file. A change conflict is dangerous. It can introduce bugs, break the solution and make it impossible for other developers to continue their changes (dependency), or even worse it may cause you losing some of your precious code and logic.

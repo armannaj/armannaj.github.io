@@ -8,7 +8,8 @@ tags:
   - "react"
   - "typescript"
   - "web-development"
-background: "/img/posts/pexels-photo-315934.jpeg"
+header:
+    overlay_image: "/img/posts/pexels-photo-315934.jpeg"
 ---
 
 Youtube allows you to embed videos in your website. It is said that having a rich content (like a video) in your website can have a positive impact on your SEO score in the eyes of search engines like Google or Bing.
