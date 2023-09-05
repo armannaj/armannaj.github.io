@@ -5,7 +5,8 @@ tags:
   - "asp-net"
   - "csharp"
   - "dotnet-core"
-background: "/img/posts/pexels-pixabay-60504.jpg"
+header:
+    overlay_image: "/img/posts/pexels-pixabay-60504.jpg"
 ---
 
 > If you have an Api that modifies the core data of a system, you need to log every call to that. In addition, If your system accepts input from a 3rd party system, Or sends an output to a 3rd party system, you also need proper logging in case of a dispute happens in the future. In this post, I'm gonna tell you how you can have a proper audit log without re-inventing the wheel!

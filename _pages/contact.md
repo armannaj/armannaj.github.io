@@ -2,6 +2,7 @@
 title: Contact Me
 description: Have questions? I have answers.
 background: '/img/bg-contact.jpg'
+permalink: /contact/
 form: true
 ---
 
