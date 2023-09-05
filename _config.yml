@@ -41,7 +41,6 @@ plugins:
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-seo-tag
-  - jekyll-admin
 
 # Add your google-analytics ID here to activate google analytics
 google_analytics: "G-0PL90HHJ88"
