@@ -1,8 +1,9 @@
 ---
 title:  "How to embed a tweet in GitHub Pages (2023)"
-date:   2022-09-05
+date:   2023-09-05
 tags: 
   - "blogging"
+excerpt: "An easy way to embed tweets in GitHub Pages without security concerns"
 ---
 Although there are plugins for jekyll to do that, However it is not enabled in GitHub Pages due to security concerns.
 
