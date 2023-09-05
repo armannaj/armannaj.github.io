@@ -20,10 +20,11 @@ Every email needs energy for basically two things: routing and storage. "routing
 
 I was wondering how much carbon every single email produces .. [The carbon footprint](https://en.wikipedia.org/wiki/Carbon_footprint) is a common metric to measure the amount of gases something emits. The carbon footprint for an email [is shown to](https://carbonliteracy.com/the-carbon-cost-of-an-email/) be like:
 
+```
  Spam emails: 0.3g
  Typical emails: 4g
  Long emails with attachments: 50g
-
+```
 hmm .. So every newsletter that I unsubscribe and don't receive anymore will save 4grams of CO2!
 
 ## But is it worth it?

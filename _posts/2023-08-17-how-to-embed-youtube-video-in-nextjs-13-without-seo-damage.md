@@ -33,7 +33,7 @@ It's very easy, but the problem was it affected my core web vitals heavily in [P
 
 ![](https://programmerbyday.files.wordpress.com/2023/08/taranify-mobile-perf-current-copy.png?w=1024)
 
-The Total Blocking Time is ridiculously high and that's because of all the scripts and contents that Youtube iframe is loading. I had even put _loading="lazy"_ on iframe but it didn't make much difference!
+The Total Blocking Time is ridiculously high and that's because of all the scripts and contents that Youtube iframe is loading. I had even put `loading="lazy"` on iframe but it didn't make much difference!
 
 ## What is a Facade for Third-party Embeds ?
 
@@ -47,21 +47,22 @@ How I Used Facade for Youtube Embed in NextJs 13?
 
 [NextJs 13](https://nextjs.org/blog/next-13) introduced a new structure and ways of doing things. After searching and trying different npm packages, I decided to add [this package](https://github.com/ibrahimcesar/react-lite-youtube-embed):
 
+```
 npm i react-lite-youtube-embed
-
+```
 This package doesn't add its CSS by default, so add this on top of your page:
-
+```
 import "react-lite-youtube-embed/dist/LiteYouTubeEmbed.css";
-
+```
 Then, embed your Youtube video like this:
-
+```
 <LiteYouTubeEmbed
             id="jzx9bpFXSzE"
             title="How Does Taranify Work?"
             poster="maxresdefault"
 />
-
-This is responsive by default and takes up 100% of width. Notice that I decided to use _poster="maxresdefault"_ to load the facade image with the highest available resolution.
+```
+This is responsive by default and takes up 100% of width. Notice that I decided to use `poster="maxresdefault"` to load the facade image with the highest available resolution.
 
 After than, my core web vitals assessment is like this:
 
@@ -75,7 +76,7 @@ It's a huge improvement (2110 ms). The page is blazingly fast and in face for th
 
 Which made me to thank Chromium for PageSpeed tool in this tweet:
 
-https://twitter.com/programmerByDay/status/1691753073511895459?s=20
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Such a satisfying feeling when I got this from PageSpeed for <a href="https://t.co/wPSr3BY3TE">https://t.co/wPSr3BY3TE</a> , Thank you <a href="https://twitter.com/ChromiumDev?ref_src=twsrc%5Etfw">@ChromiumDev</a> <a href="https://t.co/OgTwkVxnOj">pic.twitter.com/OgTwkVxnOj</a></p>&mdash; Arman 💻 (@programmerByDay) <a href="https://twitter.com/programmerByDay/status/1691753073511895459?ref_src=twsrc%5Etfw">August 16, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Thanks for reading. I hope it's been useful.
 
