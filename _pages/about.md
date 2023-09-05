@@ -1,10 +1,8 @@
 ---
-layout: page
 title: About
 description: about armannotes.com
 permalink: /about/
 background: /img/bg-about.jpg
-published: true
 ---
 Hi!
 <br />
