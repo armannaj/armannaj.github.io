@@ -13,8 +13,8 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Arman Notes
-subtitle: Coding, Software Engineering, AI and Technology
+title: Arman's Tech Blog
+subtitle: Notes on Coding, Software Engineering, AI and Technology
 email: hi@armannotes.com
 description: >- # this means to ignore newlines until "baseurl:"
   My Experiences & Notes on Coding, Software Engineering, AI and Technology
