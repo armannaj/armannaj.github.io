@@ -26,19 +26,19 @@ This gives us two useful functions: `hasCookie` & `setCookie`. In a top-level cl
 
 Import these at top:
 
-```javascript
+```typescript
 import { hasCookie, setCookie } from "cookies-next";
 ```
 
 Create this state:
 
-```markup
+```javascript
 const [showConsent, setShowConsent] = useState(false);
 ```
 
 In useEffect method do this:
 
-```markup
+```javascript
 useEffect(() => {
    setShowConsent(!hasCookie("cookieConsent"));
   }, []);
@@ -56,9 +56,9 @@ In the return section add this JSX code:
               </span>
             </div>
             <Button size="sm" color="primary" onClick={() => {
-								    	setCookie("cookieConsent", "true", {});
-								    	setShowConsent(false);
-									  }}>
+		setCookie("cookieConsent", "true", {});
+		setShowConsent(false);
+		}}>
               Accept
             </Button>
           </Alert>
