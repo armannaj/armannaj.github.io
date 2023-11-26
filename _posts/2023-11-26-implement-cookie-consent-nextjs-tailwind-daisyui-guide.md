@@ -22,11 +22,11 @@ I use this NPM library:
 
 > npm install cookies-next
 
-This gives us two useful functions: `hasCookie` & `setCookie . In a top-level client-side layout page, I check if a consent cookie present or not. If not, I show the message to the user. Once the user accepts it, I save the consent cookie so that next time I don't bother user and repeat this question again.`
+This gives us two useful functions: `hasCookie` & `setCookie`. In a top-level client-side layout page, I check if a consent cookie present or not. If not, I show the message to the user. Once the user accepts it, I save the consent cookie so that next time I don't bother user and repeat this question again.
 
 Import these at top:
 
-```markup
+```javascript
 import { hasCookie, setCookie } from "cookies-next";
 ```
 
@@ -46,7 +46,7 @@ useEffect(() => {
 
 In the return section add this JSX code:
 
-```markup
+```javascript
 {showConsent && (
         <Toast className="z-50">
           <Alert>
