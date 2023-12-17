@@ -1,5 +1,5 @@
 ---
-title: Why You Should Always Use Span for React.js Texts
+title: 'Why You Should Always Use Span for React.js Texts'
 tags:
   - react
   - reactjs
