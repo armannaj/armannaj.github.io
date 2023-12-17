@@ -20,7 +20,7 @@ Browsers (like Chrome) would replace a text with a `<font>` markup tag like this
 // Translated
 <div>
   <font style="vertical-align: inherit;">
-    <font style="vertical-align: inherit;">ä¸äºæå­</font>
+    <font style="vertical-align: inherit;">一些文字</font>
   </font>
 </div>
 
