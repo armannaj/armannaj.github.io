@@ -1,5 +1,5 @@
 ---
-title: '''Be a Citizen Scientist and Help End Covid-19 Pandemic Faster'''
+title: 'Be a Citizen Scientist and Help End Covid-19 Pandemic Faster'
 date: '2020-11-18'
 tags:
   - android
@@ -42,11 +42,11 @@ There are many distributed computing projects running across the world. Generall
 
 [Dreamlab](https://www.vodafone.com.au/foundation/dreamlab) is an app that uses the power of your phone while you are sleeping. It is available for iOS as well as Android. It is focusing on different cancer studies as well as a special Covid-19 study from Imperial College London. You can choose which study you would like to participate in. You can also choose how much data you allow the app to use. With phones being almost as powerful as computers these days, a virtual super-computer like that can get a great amount of computing power while phones are being charged at nights.
 
-[![Dreamlab app](https://i.ytimg.com/vi/OQ7zxWY32Yo/default.jpg)](https://www.youtube.com/watch?v=OQ7zxWY32Yo&feature=youtu.be)
+[![Dreamlab app](https://i.ytimg.com/vi/OQ7zxWY32Yo/hqdefault.jpg)](https://www.youtube.com/watch?v=OQ7zxWY32Yo&feature=youtu.be)
 
 On the other hand, [Folding@Home](https://foldingathome.org/) (FAH) is a distributed computing project started in 2000. It studies folding and the movements of proteins in human bodies. It uses your unused computing power and make it to use to study when proteins misfold. It has helped with the study of cancers, infectious diseases and neurological diseases. On March 2020, the contribution from people got them to 1.5 exaFLOPS and even made them one of the first exa-scale super-computers! It is now focusing on [Covid-19 moonshot project](https://postera.ai/moonshot/).
 
-[![Folding@Home app](https://i.ytimg.com/vi/tNVaSmPWCeY/default.jpg)](https://www.youtube.com/watch?v=tNVaSmPWCeY&feature=youtu.be)
+[![Folding@Home app](https://i.ytimg.com/vi/tNVaSmPWCeY/hqdefault.jpg)](https://www.youtube.com/watch?v=tNVaSmPWCeY&feature=youtu.be)
 
 What do you think? Have you participated in any of these projects before?
 
