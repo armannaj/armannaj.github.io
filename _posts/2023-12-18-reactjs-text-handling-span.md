@@ -67,4 +67,4 @@ This way, when Chrome or other browsers replace the text with nodes, the node ar
 
 You can read more about it on [this React Github issue](https://github.com/facebook/react/issues/11538#issuecomment-390386520).
 
-Voilà! now you are going to have happy users from all over the world.
+Voila! now you are going to have happy users from all over the world.
