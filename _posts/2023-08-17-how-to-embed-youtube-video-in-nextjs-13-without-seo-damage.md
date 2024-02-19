@@ -1,20 +1,21 @@
 ---
-title: "How to Embed Youtube Video in NextJs 13 Without SEO damage"
-date: "2023-08-17"
-tags: 
-  - "javascript"
-  - "javascript-framework"
-  - "next-js"
-  - "react"
-  - "typescript"
-  - "web-development"
+title: How to Embed Youtube Video in NextJs 13 Without SEO damage
+date: '2023-08-17'
+tags:
+  - javascript
+  - javascript-framework
+  - next-js
+  - react
+  - typescript
+  - web-development
 header:
-    overlay_image: "/img/posts/pexels-photo-315934.jpeg"
+  overlay_image: /img/posts/pexels-photo-315934.jpeg
 ---
+
 
 Youtube allows you to embed videos in your website. It is said that having a rich content (like a video) in your website can have a positive impact on your SEO score in the eyes of search engines like Google or Bing.
 
-So I created a video for my experimental [Mood Playlist AI](https://taranify.app), and tried to embed it in my website. I used the code I got from youtube. It gave me this code:
+So I created a video for my experimental [Mood Recommendation AI](https://www.taranify.com), and tried to embed it in my website. I used the code I got from youtube. It gave me this code:
 
 ```
  <iframe
@@ -76,7 +77,7 @@ It's a huge improvement (2110 ms). The page is blazingly fast and in face for th
 
 Which made me to thank Chromium for PageSpeed tool in this tweet:
 
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Such a satisfying feeling when I got this from PageSpeed for <a href="https://t.co/wPSr3BY3TE">https://t.co/wPSr3BY3TE</a> , Thank you <a href="https://twitter.com/ChromiumDev?ref_src=twsrc%5Etfw">@ChromiumDev</a> <a href="https://t.co/OgTwkVxnOj">pic.twitter.com/OgTwkVxnOj</a></p>&mdash; Arman 💻 (@programmerByDay) <a href="https://twitter.com/programmerByDay/status/1691753073511895459?ref_src=twsrc%5Etfw">August 16, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Such a satisfying feeling when I got this from PageSpeed for <a href="https://t.co/wPSr3BY3TE">https://t.co/wPSr3BY3TE</a> , Thank you <a href="https://twitter.com/ChromiumDev?ref_src=twsrc%5Etfw">@ChromiumDev</a> <a href="https://t.co/OgTwkVxnOj">pic.twitter.com/OgTwkVxnOj</a></p>&mdash; Arman ð» (@programmerByDay) <a href="https://twitter.com/programmerByDay/status/1691753073511895459?ref_src=twsrc%5Etfw">August 16, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Thanks for reading. I hope it's been useful.
 
