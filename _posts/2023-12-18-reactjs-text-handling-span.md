@@ -1,5 +1,5 @@
 ---
-title: 'Why You Should Always Use Span for React.js Texts'
+title: Why You Should Always Use Span for React.js Texts
 tags:
   - react
   - reactjs
@@ -20,7 +20,7 @@ Browsers (like Chrome) would replace a text with a `<font>` markup tag like this
 // Translated
 <div>
   <font style="vertical-align: inherit;">
-    <font style="vertical-align: inherit;">一些文字</font>
+    <font style="vertical-align: inherit;">ä¸äºæå­</font>
   </font>
 </div>
 
@@ -53,7 +53,7 @@ However, as you have already guessed, this is not good user experience and I wou
 
 ## Solution 2: Wrap texts with
 
-This is what I have decided to do for my [recommendation ai](https://taranify.app) web app. It's easy and effective. All you need to do is to avoid using bare texts and Always Always Always put your texts in between `<span></span>` .
+This is what I have decided to do for my [mood recommendation ai](https://www.taranify.com) web app. It's easy and effective. All you need to do is to avoid using bare texts and Always Always Always put your texts in between `<span></span>` .
 
 This way, when Chrome or other browsers replace the text with nodes, the node around it stays the same and therefore react would not lose its reference to the node.
 
