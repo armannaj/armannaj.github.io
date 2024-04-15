@@ -1,16 +1,15 @@
 ---
-title: "The Difference Between Coding, Machine Learning and Deep Learning"
-date: "2023-03-27"
-tags: 
-  - "ai"
-  - "coding"
-  - "deep-learning"
-  - "machine-learning"
-  - "neural-network"
+title: 'The Difference Between Coding, Machine Learning and Deep Learning'
+date: '2023-03-27'
+tags:
+  - ai
+  - coding
+  - deep-learning
+  - machine-learning
+  - neural-network
 header:
-    overlay_image: "/img/posts/pexels-pavel-danilyuk-8438918.jpg"
+  overlay_image: /img/posts/pexels-pavel-danilyuk-8438918.jpg
 ---
-
 I have been a software engineer and developer for more than a decade now. Writing code has always been a fun part of my day, generally it's a way to solve a problem and telling a computer machine what the solution is and how to execute it. However, in recent years (during university and work) I was introduced to different ways of solving problems. and, that is using Artificial Intelligence or AI to solve problems.
 
 AI is a broad concept and I'm not going to define it here in this post. However, I want to point out to an aspect of it. One aspect of AI is when use it to solve a problem for us.
@@ -19,13 +18,14 @@ AI is a broad concept and I'm not going to define it here in this post. However,
 
 We write code (in the form of programming languages) to solve a problem. Whenever we write code, we need to know 4 things:
 
-- the problem definition itself,
-
-- the input parameters of it,
-
-- the expected output of it,
-
-- and how to solve that problem using input parameters and generate the expected outcome
+*   the problem definition itself,
+    
+*   the input parameters of it,
+    
+*   the expected output of it,
+    
+*   and how to solve that problem using input parameters and generate the expected outcome
+    
 
 When we know these 4 items, we can start writing machine instructions in a programming language. As we know, a computer reads those instructions and executes them line by line.
 
@@ -33,11 +33,12 @@ When we know these 4 items, we can start writing machine instructions in a progr
 
 AI is a broad and complex concept. But in general, the idea is AI solves a problem without us instructing the machine on how exactly to solve it. That means, instead of the 4 items I mentioned above, we only care about these 3 items:
 
-- the problem definition itself,
-
-- the input parameters of it,
-
-- the expected output,
+*   the problem definition itself,
+    
+*   the input parameters of it,
+    
+*   the expected output,
+    
 
 The AI is responsible to figure out the fourth item (how to solve that problem using input parameters and generate the expected outcome). This is mimicking human intelligence, hence the name Artificial Intelligence.
 
@@ -49,11 +50,12 @@ Let me explain...
 
 As you remember, in AI problem space , we have the problem, the inputs and the expected outputs. Machine Learning (ML) is when we try to find patterns and associations between inputs (or a subset of it) and expected outputs. That pattern/association becomes the execution model. In order to find that association, first we need to have a sample of input data and outputs, then we use couple of pre-defined techniques on them. Each technique examines input data from a certain aspect and looks for a predefined relation in those data. Some of the very famous ones are:
 
-- Classification
-
-- Clustering
-
-- Regression
+*   Classification
+    
+*   Clustering
+    
+*   Regression
+    
 
 These techniques generally try to "define the input data" and generate rules. Rules such as:
 
@@ -79,7 +81,7 @@ Deep learning uses Artificial Neural Network (ANN) to find the execution model b
 
 The name Deep Learning is because the solution knowledge is deep into the network of layers of neurons and their interconnections.
 
-![](images/1920px-Artificial_neural_network.svg.png)Source
+![](https://www.armannotes.com/img/posts/simple-nn.webp)
 
 Neural Network works great with complex input types. Therefore, it has been used extensively in solving problems like Object Detection in photos, Image category recognition, Machine Translation, and so on.
 
