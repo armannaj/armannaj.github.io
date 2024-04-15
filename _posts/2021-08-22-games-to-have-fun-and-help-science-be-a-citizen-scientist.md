@@ -10,11 +10,13 @@ tags:
 header:
   overlay_image: /img/posts/pexels-photo-3992943.jpeg
 ---
+
 It all started in December 2019 .. When WHO was informed of unknown cases in Wuhan City, China. Since then, the world has experienced one of the biggest and longest pandemics. However, the big difference is that this time, science had advanced a lot in the recent decades, and that gave us the biggest tool to fight back with this tiny COVID-19 virus.
 
 A lot of scientists around the world gathered together to fight back! Quickly, multiple studies were conducted across the world, and that led to various solutions and vaccines. All this highlighted the importance of science more than ever. Everybody wants more of science. Everybody wants better answers and faster results.
 
-On the other hand, there are problems in the world that are not easy to solve. Finding a good and fast solution to them requires studying a lot of different things altogether. And that takes time, money, and resources. One of the interesting initiatives is citizen scientists. Citizen science helps crowd-source studies and enables scientists with a lot of data they can work on. If you want to know more, I explained all about it (with examples) [in this blog post](https://programmerbyday.wordpress.com/2020/11/18/be-a-citizen-scientist-and-help-end-covid-19-pandemic-faster/).
+On the other hand, there are problems in the world that are not easy to solve. Finding a good and fast solution to them requires studying a lot of different things altogether. And that takes time, money, and resources. One of the interesting initiatives is citizen scientists. Citizen science helps crowd-source studies and enables scientists with a lot of data they can work on. 
+If you want to know more, I explained all about it (with examples) [in this blog post](https://www.armannotes.com/2020/11/18/be-a-citizen-scientist-and-help-end-covid-19-pandemic-faster/).
 
 From time to time, When I get bored and want to play games on my mobile phone. One day, I was wondering that it would be good to download some of those citizen scientists games. This way, whenever I wanted to free up my mind and play some game, I can play those and who knows, maybe I can contribute to something!
 
