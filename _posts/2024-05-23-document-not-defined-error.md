@@ -1,7 +1,5 @@
 ---
-title: >-
-  How I Solved "Yjs was already imported" and "document is not defined" Errors
-  in Remirror 2, Nextjs 14.2
+title: How I Solved "Yjs was already imported" and "document is not defined" Errors in Remirror 2, Nextjs 14.2
 tags:
   - nextjs
   - react
