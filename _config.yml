@@ -27,7 +27,7 @@ breadcrumbs: true
 
 # Build settings
 markdown: kramdown
-remote_theme: cotes2020/jekyll-theme-chirpy
+remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:year/:month/:day/:title/
 paginate: 10 # amount of posts to show
