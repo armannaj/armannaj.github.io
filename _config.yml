@@ -1,17 +1,18 @@
 # Site settings
 title: "Arman's Tech Blog"
-description: "Expert insights on coding, software engineering, AI, and technology from a seasoned developer with 15+ years of experience."
+description: "Expert insights on coding, software engineering, AI, and technology from a seasoned senior software developer with 18+ years of experience."
 author: "Arman"
-avatar: "/assets/images/profile.jpg"
-twitter: "https://twitter.com/your-twitter"
-github: "https://github.com/your-github"
+avatar: "/img/me.jpg"
+twitter: "https://x.com/programmerByDay"
+github: "https://github.com/armannaj"
+bluesky: "https://bsky.app/profile/armannaj.bsky.social"
 default_image: "/assets/images/default-social.jpg"
 url: "https://www.armannotes.com"
 baseurl: ""
 
 # SEO settings
-twitter_username: your-twitter-handle
-github_username: your-github-handle
+twitter_username: programmerByDay
+github_username: armannaj
 linkedin_username: your-linkedin
 google_analytics: UA-XXXXXXXX-X
 
