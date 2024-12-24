@@ -1,0 +1,107 @@
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Primary Meta Tags -->
+  <title>
+    {% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{
+    site.title }}{% endif %}
+  </title>
+  <meta
+    name="title"
+    content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}"
+  />
+  <meta
+    name="description"
+    content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"
+  />
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="{{ page.url | absolute_url }}" />
+  <meta
+    property="og:title"
+    content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}"
+  />
+  <meta
+    property="og:description"
+    content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"
+  />
+  <meta
+    property="og:image"
+    content="{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ site.default_image | absolute_url }}{% endif %}"
+  />
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:url" content="{{ page.url | absolute_url }}" />
+  <meta
+    name="twitter:title"
+    content="{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}"
+  />
+  <meta
+    name="twitter:description"
+    content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"
+  />
+  <meta
+    name="twitter:image"
+    content="{% if page.image %}{{ page.image | absolute_url }}{% else %}{{ site.default_image | absolute_url }}{% endif %}"
+  />
+
+  <!-- Canonical URL -->
+  <link
+    rel="canonical"
+    href="{{ page.url | replace:'index.html','' | absolute_url }}"
+  />
+
+  <!-- Preload Critical Assets -->
+  <link
+    rel="preload"
+    href="{{ '/assets/css/main.css' | relative_url }}"
+    as="style"
+  />
+  <link
+    rel="preload"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+    as="style"
+  />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}" />
+  <link
+    rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+  />
+
+  <!-- Feed -->
+  <link
+    rel="alternate"
+    type="application/rss+xml"
+    title="{{ site.title }}"
+    href="{{ '/feed.xml' | absolute_url }}"
+  />
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+
+  <!-- JSON-LD Structured Data -->
+  <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "{% if page.layout == 'post' %}BlogPosting{% else %}WebSite{% endif %}",
+        "url": "{{ page.url | absolute_url }}",
+        "name": "{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}",
+        {% if page.layout == 'post' %}
+        "headline": "{{ page.title }}",
+        "datePublished": "{{ page.date | date_to_xmlschema }}",
+        "dateModified": "{% if page.last_modified_at %}{{ page.last_modified_at | date_to_xmlschema }}{% else %}{{ page.date | date_to_xmlschema }}{% endif %}",
+        "author": {
+            "@type": "Person",
+            "name": "{{ site.author }}"
+        },
+        {% endif %}
+        "description": "{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}"
+    }
+  </script>
+</head>

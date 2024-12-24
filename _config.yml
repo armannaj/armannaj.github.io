@@ -1,135 +1,66 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Arman's Tech Blog
-subtitle: Notes on Coding, Software Engineering, AI and Technology
-email: hi@armannotes.com
-description: >- # this means to ignore newlines until "baseurl:"
-  My Experiences & Notes on Coding, Software Engineering, AI and Technology
+title: "Arman's Tech Blog"
+description: "Expert insights on coding, software engineering, AI, and technology from a seasoned developer with 15+ years of experience."
+author: "Arman"
+avatar: "/assets/images/profile.jpg"
+twitter: "https://twitter.com/your-twitter"
+github: "https://github.com/your-github"
+default_image: "/assets/images/default-social.jpg"
 url: "https://www.armannotes.com"
-twitter_username: programmerByDay
-github_username: armannaj
-minimal_mistakes_skin: default
-search: true
-breadcrumbs: true
+baseurl: ""
+
+# SEO settings
+twitter_username: your-twitter-handle
+github_username: your-github-handle
+linkedin_username: your-linkedin
+google_analytics: UA-XXXXXXXX-X
 
 # Build settings
 markdown: kramdown
-remote_theme: mmistakes/minimal-mistakes
-# Outputting
 permalink: /:year/:month/:day/:title/
-paginate: 10 # amount of posts to show
-paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+paginate: 10
+paginate_path: "/page/:num/"
 
-include:
-  - _pages
-
-# Analytics
-analytics:
-  provider: "google-gtag" # false (default), "google", "google-universal", "google-gtag", "custom"
-  google:
-    tracking_id: G-0PL90HHJ88
-    anonymize_ip: # true, false (default)
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
-
-# Plugins (previously gems:)
+# Plugin settings
 plugins:
-  - jekyll-paginate
-  - jekyll-sitemap
-  - jekyll-gist
   - jekyll-feed
-  - jemoji
-  - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-redirect-from
+  - jekyll-last-modified-at
 
-author:
-  name: "Arman"
-  avatar: "/img/me.jpg"
-  bio: "a Software Consultant, .NET Full-stack Dev, Solution Architect, Team Lead and blogger with 15+ years of experience, currently working as a software consultant in Australia."
-  links:
-    # - label: "Website"
-    #   icon: "fas fa-fw fa-link"
-    #   url: "https://www.armannotes.com"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/programmerByDay"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/armannaj"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
+# Collections
+collections:
+  categories:
+    output: true
+    permalink: /category/:name/
+  tags:
+    output: true
+    permalink: /tag/:name/
 
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/programmerByDay"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/armannaj"
-    # - label: "Instagram"
-    #   icon: "fab fa-fw fa-instagram"
-    #   url: "https://instagram.com/"
-
+# Defaults
 defaults:
-  # _posts
   - scope:
       path: ""
-      type: posts
+      type: "posts"
     values:
-      layout: single
-      author_profile: true
-      read_time: true
+      layout: "post"
       comments: true
-      share: true
-      related: true
-  # _pages
+      sharing: true
   - scope:
-      path: "_pages"
-      type: pages
+      path: ""
     values:
-      layout: single
-      author_profile: true
+      image: "/assets/images/default-social.jpg"
 
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
-
-# Sass/SCSS
+# Compression
 sass:
-  sass_dir: _sass
-  style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+  style: compressed
 
-# HTML Compression
-# - https://jch.penibelst.de/
-compress_html:
-  clippings: all
-  ignore:
-    envs: development
+# Exclude files
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - README.md
