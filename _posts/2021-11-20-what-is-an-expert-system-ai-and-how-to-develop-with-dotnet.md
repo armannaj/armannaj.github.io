@@ -1,7 +1,7 @@
 ---
 title: "What is an Expert System AI and How to Develop it with dotnet core"
 date: "2021-11-20"
-tags: 
+tags:
   - "net-core"
   - "ai"
   - "csharp"
@@ -9,7 +9,7 @@ tags:
   - "expert-systems"
   - "machine-learning"
 header:
-    overlay_image: "/img/posts/pexels-tara-winstead-8386434.jpg"
+  overlay_image: "/img/posts/pexels-tara-winstead-8386434.jpg"
 ---
 
 The idea of artificial intelligence has wondered us since the early days of the computer era. A computer software that assists us with our tasks, helps us to make better decisions and answers all our questions. Throughout recent decades, there have been various approaches to this idea. From a search engine backed by a super-giant database, to expert systems and more recently machine learning AI.
@@ -42,7 +42,7 @@ Throughout the years, there has been quite some famous projects as well. Some of
 - [**MYCIN**](https://en.wikipedia.org/wiki/Mycin): another project in Stanford University in early 1970s, to identify bacteria causing infections and recommend antibiotics.
 - **[ROSS](https://rossintelligence.com/)**: is a new project by IBM. It's an artificially-intelligent attorney based on IBM's Watson cognitive computing system. It can answer your legal questions.
 
-{% include video id="ZF0J_Q0AK0E" provider="youtube" %}
+{% include video.html id="ZF0J_Q0AK0E" %}
 
 - **PXDES**: An Example of Expert System used to predict the degree and type of lung cancer
 - **CaDet**: One of the best Expert System Example that can identify cancer at early stages
@@ -120,9 +120,9 @@ static void Main(string[] args)
 
 all facts after inference are:
 temperature = 38
-has\_cough = yes
-has\_fever = yes
-lung\_infection = yes
+has_cough = yes
+has_fever = yes
+lung_infection = yes
 covid19 = yes
 
 conclusion:
