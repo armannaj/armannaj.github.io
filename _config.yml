@@ -50,6 +50,11 @@ defaults:
       path: ""
     values:
       image: "/assets/images/default-social.jpg"
+  - scope:
+      path: ""
+      type: "tags"
+    values:
+      layout: "tag"
 
 # Compression
 sass:
