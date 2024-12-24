@@ -1,0 +1,46 @@
+<div class="search-container">
+  <input type="text" id="search-input" placeholder="Search blog posts..." />
+  <ul id="search-results"></ul>
+</div>
+
+<script>
+  // Fetch all blog posts
+  fetch("/search.json")
+    .then((response) => response.json())
+    .then((posts) => {
+      const searchInput = document.getElementById("search-input");
+      const searchResults = document.getElementById("search-results");
+
+      searchInput.addEventListener("input", () => {
+        const searchTerm = searchInput.value.toLowerCase();
+        const filteredPosts = posts.filter(
+          (post) =>
+            post.title.toLowerCase().includes(searchTerm) ||
+            post.content.toLowerCase().includes(searchTerm)
+        );
+
+        searchResults.innerHTML = "";
+        filteredPosts.forEach((post) => {
+          const li = document.createElement("li");
+          const a = document.createElement("a");
+          a.href = post.url;
+          a.textContent = post.title;
+          li.appendChild(a);
+          searchResults.appendChild(li);
+        });
+
+        if (searchTerm === "") {
+          searchResults.style.display = "none";
+        } else {
+          searchResults.style.display = "block";
+        }
+      });
+
+      // Close search results when clicking outside
+      document.addEventListener("click", (event) => {
+        if (!event.target.closest(".search-container")) {
+          searchResults.style.display = "none";
+        }
+      });
+    });
+</script>

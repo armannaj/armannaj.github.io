@@ -1,0 +1,30 @@
+---
+layout: default
+---
+
+<div class="tag-page">
+  <h1 class="tag-title">Posts tagged with "{{ page.tag }}"</h1>
+
+  <div class="posts-grid">
+    {% for post in site.tags[page.tag] %}
+    <article class="post-card">
+      <div class="post-card-content">
+        <h2 class="post-title">
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+        </h2>
+        <div class="post-meta">
+          <time datetime="{{ post.date | date_to_xmlschema }}">
+            {{ post.date | date: "%B %-d, %Y" }}
+          </time>
+          {% if post.reading_time %}
+          <span class="reading-time">{{ post.reading_time }} min read</span>
+          {% endif %}
+        </div>
+        <p class="post-excerpt">
+          {{ post.excerpt | strip_html | truncatewords: 30 }}
+        </p>
+      </div>
+    </article>
+    {% endfor %}
+  </div>
+</div>

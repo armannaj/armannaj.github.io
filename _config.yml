@@ -33,9 +33,6 @@ plugins:
 
 # Collections
 collections:
-  categories:
-    output: true
-    permalink: /category/:name/
   tags:
     output: true
     permalink: /tag/:name/
