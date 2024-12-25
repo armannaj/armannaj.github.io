@@ -40,6 +40,7 @@ body {
     justify-content: space-between;
     align-items: center;
     height: 4rem;
+    position: relative;
 }
 
 .site-title {
@@ -66,46 +67,61 @@ body {
     color: var(--color-primary);
 }
 
-/* Search styles */
-.search-container {
-    position: relative;
-}
-
-#search-input {
-    padding: 0.5rem;
-    border: 1px solid var(--color-border);
-    border-radius: 0.25rem;
-    font-size: 0.875rem;
-}
-
-#search-results {
-    position: absolute;
-    top: 100%;
-    left: 0;
-    right: 0;
-    background: var(--color-background);
-    border: 1px solid var(--color-border);
-    border-top: none;
-    border-radius: 0 0 0.25rem 0.25rem;
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    max-height: 300px;
-    overflow-y: auto;
+.menu-toggle {
     display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 2rem;
+    height: 2rem;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 10;
 }
 
-#search-results li {
-    padding: 0.5rem;
+.menu-toggle span {
+    width: 2rem;
+    height: 0.25rem;
+    background: var(--color-text);
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
 }
 
-#search-results li:hover {
-    background: var(--color-border);
-}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .menu-toggle {
+        display: flex;
+    }
 
-#search-results a {
-    color: var(--color-text);
-    text-decoration: none;
+    .nav-links {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        flex-direction: column;
+        background: var(--color-background);
+        align-items: flex-start;
+        padding: 1rem;
+        gap: 1rem;
+        border-bottom: 1px solid var(--color-border);
+        display: none;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .search-container {
+        width: 100%;
+    }
+
+    #search-input {
+        width: 100%;
+        box-sizing: border-box;
+    }
 }
 
 /* Profile Section */
@@ -341,6 +357,12 @@ body {
 }
 
 /* Blog post content styles */
+.post-header {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 2rem 0;
+}
+
 .post-content {
     max-width: 720px;
     margin: 0 auto;

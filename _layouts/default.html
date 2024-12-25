@@ -9,18 +9,7 @@
     {% include head.html %}
 </head>
 <body>
-    <header class="site-header">
-        <div class="container">
-            <nav class="nav-main">
-                <a href="{{ '/' | relative_url }}" class="site-title">{{ site.title }}</a>
-                <div class="nav-links">
-                    <a href="{{ '/' | relative_url }}" {% if page.url == "/" %}class="active"{% endif %}>Home</a>
-                    <a href="{{ '/about' | relative_url }}" {% if page.url == "/about/" %}class="active"{% endif %}>About</a>
-                    {% include search.html %}
-                </div>
-            </nav>
-        </div>
-    </header>
+    {% include nav.html %}
 
     <main class="site-content">
         <div class="container">
@@ -58,6 +47,7 @@
     </div>
 </footer>
     <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+    <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
 </body>
 </html>
 
