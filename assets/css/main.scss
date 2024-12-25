@@ -121,6 +121,9 @@ body {
     #search-input {
         width: 100%;
         box-sizing: border-box;
+        border-radius: 0.5rem;
+        padding: 0.25rem;
+        border: 1px solid var(--color-border);
     }
 }
 
@@ -361,6 +364,10 @@ body {
     max-width: 720px;
     margin: 0 auto;
     padding: 2rem 0;
+}
+
+.post-header h1 {
+    font-size: 2rem;
 }
 
 .post-content {
